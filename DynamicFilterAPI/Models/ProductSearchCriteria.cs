@@ -9,12 +9,12 @@
     public class ProductSearchCriteria
     {
 
-        public bool IsActive { get; set; }
+        public bool? IsActive { get; set; }
 
         public PriceRange? Price { get; set; }
 
         public Category[]? Categories { get; set; }
 
-        public ProductName[]? ProductName { get; set; }
+        public ProductName[]? Names { get; set; }
     }
 }

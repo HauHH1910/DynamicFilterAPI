@@ -19,6 +19,9 @@ public class ProductDbContext : DbContext
             new Product() { Id = 2, Category = "TV", isActive = true, Name = "Sony", Price = 1500 },
             new Product() { Id = 3, Category = "TV", isActive = true, Name = "ABC", Price = 2500 },
             new Product() { Id = 4, Category = "TV", isActive = false, Name = "ABC2", Price = 2500 },
+            new Product() { Id = 5, Category = "Mobile", isActive = true, Name = "Samsung", Price = 2500 },
+            new Product() { Id = 6, Category = "Mobile", isActive = false, Name = "Iphone", Price = 2500 },
+            new Product() { Id = 7, Category = "Mobile", isActive = true, Name = "xiaomi", Price = 2500 },
         });
         base.OnModelCreating(modelBuilder);
     }
